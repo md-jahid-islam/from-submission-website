@@ -9,6 +9,7 @@ import MyWorkspace from './Pages/MyWorkspace'
 import Pricing from './Pages/Pricing'
 import Enterprise from './Pages/Enterprise'
 import Examples from './Pages/Examples'
+import { Features } from 'tailwindcss'
 
 function App() {
 
@@ -25,6 +26,8 @@ function App() {
     <Route path='/Pricing' element ={<Pricing/>}/>
     <Route path='/Enterprise' element ={<Enterprise/>}/>
     <Route path='/Examples' element ={<Examples/>}/>
+    <Route path='/Features' element ={<Features/>}/>
+
     </Route>
     </Routes>
     </BrowserRouter>
